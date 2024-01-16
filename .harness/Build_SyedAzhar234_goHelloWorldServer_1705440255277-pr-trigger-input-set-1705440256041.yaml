@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SyedAzhar234_goHelloWorldServer_1705440255277-pr-trigger-input-set
+  identifier: Build_SyedAzhar234_goHelloWorldServer_1705440255277prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_kubernetes_tutorial
+  pipeline:
+    identifier: Build_SyedAzhar234_goHelloWorldServer_1705440255277
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
