@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SyedAzhar234_goHelloWorldServer_1705440255277-push-trigger-input-set
+  identifier: Build_SyedAzhar234_goHelloWorldServer_1705440255277pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_kubernetes_tutorial
+  pipeline:
+    identifier: Build_SyedAzhar234_goHelloWorldServer_1705440255277
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
